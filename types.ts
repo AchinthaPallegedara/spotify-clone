@@ -18,7 +18,7 @@ export interface UserDetails {
     image?: string;
     metadata?: Stripe.Metadata;
   }
-
+ 
   export interface Price {
     id: string;
     product_id?: string;
